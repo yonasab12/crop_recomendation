@@ -34,7 +34,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['crop-recomendation-2.onrender.com']
+ALLOWED_HOSTS = [ 'crop-recomendation-2.onrender.com',  # Your Render domain
+    'localhost',
+    '127.0.0.1']
 
 
 # Application definition
@@ -138,5 +140,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Ensure proper logging
+
 
 
